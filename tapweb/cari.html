@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas Akhir Pemrograman Web</title>
+	<!-- Style Css -->
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<!-- Style Javascript -->
+	<script language="javascript" src="js/javascript.js"></script>
+</head>
+<body>
+
+<div class="header">
+
+</div>
+	<div class="menubar"> <!--div class digunakan untuk memanggil pada css sesuai yang dideklarasi-->
+		<ul>
+			<li><a href="biodata.html"><b>Biodata</b></a></li>
+			<li><a href="materi.html"><b>Materi Kuliah</a></b></li>
+			<li><a href="cari.html"><b>Pencarian</b></a></li>
+			<li><a href="formregis.html">Form Registrasi</a></li>
+		</ul>
+</div>	
+
+
+<div class="menu2">
+	<br><br>
+	<h2><font color="black">HALAMAN PENCARIAN DATA INTERAKTIF</font></h2>
+	<hr width="90%">
+
+	<br> <!--tag untuk ganti baris-->
+
+	<form name="formcari" onSubmit="cari()">
+  	<input class="search" name="keyword" type="text" placeholder="Cari..." required>	
+  	<input class="button" type="submit" value="Cari">		
+	</form>
+	<br><br><br><br>
+</div>
+
+<div class="menu2">
+	<center>
+	<button onclick="document.getElementById('demo').innerHTML=Date()"> <!--syntax link dengan tombol-->
+	Waktu saat ini?</button></center>
+<p id="demo"></p>
+</div>
+
+
+	
+	
+
+
+
+<div class="footer">
+	<br>
+		<font color="#6495ED"><b>&copy</b></font>&nbsp Bella Novita Sugiarti - Universitas Ahmad Dahlan - Yogyakarta - <font color="#6495ED"><b>2019</b></font>
+</div>
+
+</body>
+</html>
